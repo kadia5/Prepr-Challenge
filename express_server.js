@@ -1,4 +1,5 @@
 const express = require('express');
+const nodemon = require('nodemon');
 const app = express();
 const PORT = 8000; //default port 8000
 
@@ -13,6 +14,10 @@ app.get("/", (req, res) => {
 
 app.get("/urls.json", (req, res) => {
   res.json(urlDatabase);
+});
+
+app.get("/hello", (req, res) => {
+  res.send("<html><body>Hello <b>World</b></body></html>\n");
 });
 
 app.listen(PORT, () => {
