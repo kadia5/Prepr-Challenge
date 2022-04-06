@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kadia5/Prepr-Challenge/issues"
   },
-  "homepage": "https://github.com/kadia5/Prepr-Challenge#readme"
+  "homepage": "https://github.com/kadia5/Prepr-Challenge#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
