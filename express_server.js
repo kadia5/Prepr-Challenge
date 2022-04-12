@@ -30,10 +30,16 @@ app.get("/urls", (req, res) => {
 })
 
 app.get("/home", (req, res) => {
-  // res.send("home page!");
   res.render("home");
 })
 
+app.get("/features", (req, res) => {
+  res.render("features");
+})
+
+app.get("/pricing", (req, res) => {
+  res.render("pricing");
+})
 app.get("/urls/new", (req, res) => {
   res.render("urls_new");
 })
