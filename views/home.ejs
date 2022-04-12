@@ -6,14 +6,23 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
-    <title>New URL - TinyApp Example</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="/vendor/normalize-4.1.1.css" type="text/css" />
+    <!-- external font from Google -->
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Source+Sans+Pro:300,400,600" rel="stylesheet">
+    <!-- font awesome (stretch) -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- App CSS -->
+    <link rel="stylesheet" href="../styles/home.css" type="text/css" />
+</head>
   </head>
 
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
       <img src="https://indianapolis.kidsoutandabout.com/sites/default/files/books-1.jpg" style="width: 100px; height: 100px; margin: 0px;">
+      <div class="navbar"></div>
       <h1>Booksss</h1>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -33,12 +42,25 @@
         </ul>
       </div>
     </nav>
+  </body>
 
-    <h1>Home page</h1>
-    
-     <!-- Bootstrap JS -->
-     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-   </body>
+  <body>
+    <h1 style="display: flex; justify-content: center;">Home page</h1>
+    <div class="card-body" style="display: flex; justify-content: center;">
+    <div class="card" style="width: 18rem;" >
+      <div class="card-header" style="background: rgb(230, 255, 231);">
+        Selling
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item1" style="background-color: rgb(220, 248, 214);">Children's Literature</li>
+        <li class="list-group-item2" style= "background-color: rgb(100, 224, 148);">YA Novels</li>
+        <li class="list-group-item3" style="background-color: rgb(28, 168, 72);">Articles</li>
+      </ul>
+    </div>
+  </div>
+</body>
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
  </html>
