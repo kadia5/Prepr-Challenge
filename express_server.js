@@ -29,6 +29,11 @@ app.get("/urls", (req, res) => {
   res.send("urls page!");
 })
 
+app.get("/home", (req, res) => {
+  res.send("home page!");
+  res.render("home");
+})
+
 app.get("/urls/new", (req, res) => {
   res.render("urls_new");
 })
