@@ -30,7 +30,7 @@ app.get("/urls", (req, res) => {
 })
 
 app.get("/home", (req, res) => {
-  res.send("home page!");
+  // res.send("home page!");
   res.render("home");
 })
 
