@@ -7,7 +7,8 @@ html {
 	box-sizing: inherit;
 }
 
-li.list-group-item1 {
+.test {
 display: flex;
-background:aliceblue;
+background:rgb(173, 41, 96);
+color: blue;
 }
