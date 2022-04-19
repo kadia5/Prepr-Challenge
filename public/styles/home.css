@@ -10,5 +10,5 @@ html {
 .test {
   display: flex;
   background-color: rgb(173, 41, 96);
-  color: blue;
+  color: rgb(101, 101, 141);
 }
