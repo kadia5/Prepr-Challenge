@@ -1,0 +1,14 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.test {
+  display: flex;
+  background-color: rgb(173, 41, 96);
+  color: blue;
+}
